@@ -1,17 +1,22 @@
 <template>
   <div class="c-app flex-row align-items-center">
+    
     <CContainer>
       <CRow class="justify-content-center">
+       
         <CCol md="8">
           <CCardGroup>
             <CCard class="p-4">
               <CCardBody>
                 <CForm>
-                  <h1>Login</h1>
-                  <p class="text-muted">Sign In to your account</p>
+                   <img src="img/abyway_logo.png" width="200px">
+                  
+                  <p class="text-muted pt-3">Effettua il login</p>
                   <CInput
                     placeholder="Username"
-                    autocomplete="username email"
+                    autocomplete="username"
+                    required
+                    was-validated
                   >
                     <template #prepend-content><CIcon name="cil-user"/></template>
                   </CInput>
@@ -19,6 +24,8 @@
                     placeholder="Password"
                     type="password"
                     autocomplete="curent-password"
+                    required
+                    was-validated
                   >
                     <template #prepend-content><CIcon name="cil-lock-locked"/></template>
                   </CInput>
@@ -26,15 +33,12 @@
                     <CCol col="6" class="text-left">
                       <CButton color="primary" class="px-4">Login</CButton>
                     </CCol>
-                    <CCol col="6" class="text-right">
-                      <CButton color="link" class="px-0">Forgot password?</CButton>
-                      <CButton color="link" class="d-lg-none">Register now!</CButton>
-                    </CCol>
+                    
                   </CRow>
                 </CForm>
               </CCardBody>
             </CCard>
-            <CCard
+            <!-- <CCard
               color="primary"
               text-color="white"
               class="text-center py-5 d-md-down-none"
@@ -51,7 +55,7 @@
                   Register Now!
                 </CButton>
               </CCardBody>
-            </CCard>
+            </CCard> -->
           </CCardGroup>
         </CCol>
       </CRow>

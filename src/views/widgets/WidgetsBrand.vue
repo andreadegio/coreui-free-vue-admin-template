@@ -39,7 +39,7 @@
           <CChartLineSimple
             class="c-chart-brand"
             background-color="rgba(255,255,255,.1)"
-            :data-points="[1, 13, 9, 17, 34, 41, 38]"
+            :data-points="[1, 13, 9, 17, 34, 41, 238, 5, 88, 84]"
             label="Followers"
             labels="months"
           />
