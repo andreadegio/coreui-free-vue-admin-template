@@ -1,8 +1,8 @@
 <template>
-  <CFooter :fixed="false">
+  <CFooter>
 
     <div class="mfs-auto">
-      <span class="mr-1" target="_blank">Powered by Navert S.r.l.</span>
+      <span class="mr-1" target="_blank"><em>Powered by Navert S.r.l.</em></span>
       
     </div>
   </CFooter>

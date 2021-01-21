@@ -49,37 +49,39 @@
                 </CButton>
               </CListGroupItem>
               <CListGroupItem class="flex-column align-items-start">
+                <CBadge color="primary">
+                  INFORMAZIONI SULL'OPERATIVITA'
+                </CBadge>
                 <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">List group item heading</h5>
-                  <small class="text-muted">3 days ago</small>
+                  <h5 class="mb-1">RINNOVI BENE ASSICURAZIONI C757</h5>
+                  <small class="text-muted">11/01/2021</small>
                 </div>
                 <p class="mb-1">
-                  Donec id elit non mi porta gravida at eget metus. Maecenas sed
-                  diam eget risus varius blandit.
+                  Siamo a raccomandarci di mantenere quanto più possibile i
+                  rinnovi Rc auto in scadenza con la compagnia BENE
+                  ASSICURAZIONI C757. Gli importi di rinnovo per gennaio 2021
+                  sono disponibili in piattaforma e diminuiti rispetto al 2020.
+                  La convenzione è fondamentale per Aby Broker e
+                  conseguentemente per tutti i collaboratori, ma per mantenerla
+                  in vita necessitiamo di rinnovare quanti più titoli possibili.
+                  Confidiamo nella vostra collaborazione.
                 </p>
-                <small class="text-muted">Donec id elit non mi porta.</small>
               </CListGroupItem>
               <CListGroupItem href="#" class="flex-column align-items-start">
+                <CBadge color="warning">
+                  INFORMAZIONI SULL'OPERATIVITA'
+                </CBadge>
                 <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">List group item heading</h5>
-                  <small class="text-muted">4 days ago</small>
+                  <h5 class="mb-1">
+                    FINE PROROGA 30 GIORNI SUI CONTRATTI RC AUTO
+                  </h5>
+                  <small class="text-muted">29/07/2020</small>
                 </div>
                 <p class="mb-1">
-                  Donec id elit non mi porta gravida at eget metus. Maecenas sed
-                  diam eget risus varius blandit.
+                  Dal 01° agosto 2020 non ci sarà più la proroga dei 30 giorni
+                  per le scadenze rc auto e ritornerà in vigore la normale
+                  proroga di 15 giorni.
                 </p>
-                <small class="text-muted">Donec id elit non mi porta.</small>
-              </CListGroupItem>
-              <CListGroupItem href="#" class="flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">List group item heading</h5>
-                  <small class="text-muted">10 days ago</small>
-                </div>
-                <p class="mb-1">
-                  Donec id elit non mi porta gravida at eget metus. Maecenas sed
-                  diam eget risus varius blandit.
-                </p>
-                <small class="text-muted">Donec id elit non mi porta.</small>
               </CListGroupItem>
             </CListGroup>
           </CCardBody>
@@ -98,116 +100,103 @@
       </CCol>
 
       <CCol md="8">
-        <CCard data-aos="fade-left">
+        <CCard data-aos="fade-left" md="8">
           <CCardHeader
             ><CIcon name="cil-justify-center" />
             <strong>News dal mondo</strong>
           </CCardHeader>
-          <CCardBody>
-            <div>
-  <b-card-group columns>
-    <b-card
-      title="Card title that wraps to a new line"
-      img-src="https://placekitten.com/g/400/450"
-      img-alt="Image"
-      img-top
-    >
-      <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This content is a little bit longer.
-      </b-card-text>
-    </b-card>
+          <CCardBody md="8">
+            <!-- <CMedia aside-vertical-position="center" >
+              <h5 class="mt-0">Media Title</h5>
+              <p>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+            </CMedia> -->
+            <div class="row">
+              <div class="col">
+                <!-- <CMedia aside-vertical-position="center" >
+              <h5 class="mt-0">Media Title</h5>
+              <p>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                nisi vulputate fringilla. Donec lacinia congue felis in
+                faucibus.
+              </p>
+            </CMedia> -->
+                <v-card>
+                  <v-img
+                    class="white--text align-end"
+                    height="200px"
+                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                  </v-img>
 
-    <b-card header="Quote">
-      <blockquote class="blockquote mb-0">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer class="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </footer>
-      </blockquote>
-    </b-card>
+                  <v-card-subtitle class="pb-0"> Number 10 </v-card-subtitle>
 
-    <b-card title="Title" img-src="https://placekitten.com/500/350" img-alt="Image" img-top>
-      <b-card-text>
-        This card has supporting text below as a natural lead-in to additional content.
-      </b-card-text>
-      <b-card-text class="small text-muted">Last updated 3 mins ago</b-card-text>
-    </b-card>
+                  <v-card-text class="text--primary">
+                    <div>Whitehaven Beach</div>
 
-    <b-card bg-variant="primary" text-variant="white">
-      <blockquote class="card-blockquote">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer>
-          <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-        </footer>
-      </blockquote>
-    </b-card>
+                    <div>Whitsunday Island, Whitsunday Islands</div>
+                  </v-card-text>
 
-    <b-card>
-      <b-card-title>Title</b-card-title>
-      <b-card-text>
-        This card has supporting text below as a natural lead-in to additional content.
-      </b-card-text>
-      <b-card-text class="small text-muted">Last updated 3 mins ago</b-card-text>
-    </b-card>
+                  <v-card-actions>
+                    <v-btn color="orange" text> Leggi </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </div>
+              <div class="col">
+                <v-card>
+                  <v-img
+                    class="white--text align-end"
+                    height="200px"
+                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                  </v-img>
 
-    <b-card img-src="https://picsum.photos/400/400/?image=41" img-alt="Image" overlay></b-card>
+                  <v-card-subtitle class="pb-0"> Number 10 </v-card-subtitle>
 
-    <b-card img-src="https://picsum.photos/400/200/?image=41" img-alt="Image" img-top>
-      <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first.
-      </b-card-text>
-      <template #footer>
-        <small class="text-muted">Footer Text</small>
-      </template>
-    </b-card>
-  </b-card-group>
-</div>
+                  <v-card-text class="text--primary">
+                    <div>Whitehaven Beach</div>
 
-            <div class="container mb-2">
-              <div class="row d-flex">
-                <div class="col-md-8">
-                  <div class="d-flex flex-row"></div>
-                  <div class="row news-card p-3 bg-white">
-                    <div class="col-md-4">
-                      <div class="feed-image">
-                        <img
-                          class="news-feed-image rounded img-fluid img-responsive"
-                          src="https://i.imgur.com/ZKbpmaU.jpg"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="news-feed-text">
-                        <h5>
-                          Infortuni: nel 2019 le polizze individuali pari al 75%
-                          del ramo
-                        </h5>
-                        <span
-                          >Secondo la statistica pubblicata dall’ANIA, nel 2019
-                          la percentuale dei premi contabilizzati relativi a
-                          polizze individuali infortuni è stata pari al 75% del
-                          totale del ramo, tre punti percentuali in più rispetto
-                          al 2018; un quarto dei premi contabilizzati è,
-                          conseguentemente, afferente alle polizze collettive.
-                          Anche relativamente ai premi di nuova produzione si
-                          registra un aumento dell’incidenza delle polizze
-                          individuali, che passa dal 75% nel 2018 all’80% nel
-                          2019.<br
-                        /></span>
-                        <div
-                          class="d-flex flex-row justify-content-between align-items-center mt-2"
-                        >
-                          <div class="d-flex flex-column ml-2">
-                            <span class="date">Jan 20,2020</span>
-                          </div>
-                          <i class="fa fa-share share"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                    <div>Whitsunday Island, Whitsunday Islands</div>
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-btn color="orange" text> Leggi </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </div>
+              <div class="col">
+                <v-card class="mx-auto" max-width="400">
+                  <v-img
+                    class="white--text align-end"
+                    height="200px"
+                    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                  >
+                    <v-card-title>Top 10 Australian beaches</v-card-title>
+                  </v-img>
+
+                  <v-card-subtitle class="pb-0"> Number 10 </v-card-subtitle>
+
+                  <v-card-text class="text--primary">
+                    <div>Whitehaven Beach</div>
+
+                    <div>Whitsunday Island, Whitsunday Islands</div>
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-btn color="orange" text> Share </v-btn>
+
+                    <v-btn color="orange" text> Explore </v-btn>
+                  </v-card-actions>
+                </v-card>
               </div>
             </div>
           </CCardBody>
@@ -215,386 +204,162 @@
       </CCol>
     </CRow>
 
-    <!-- <WidgetsDropdown /> -->
-    <!-- <CCard>
-      <CCardBody>
-        <CRow>
-          <CCol sm="5">
-            <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-            <div class="small text-muted">November 2017</div>
-          </CCol>
-          <CCol sm="7" class="d-none d-md-block">
-            <CButton color="primary" class="float-right">
-              <CIcon name="cil-cloud-download" />
-            </CButton>
-            <CButtonGroup class="float-right mr-3">
-              <CButton
-                color="outline-secondary"
-                v-for="(value, key) in ['Day', 'Month', 'Year']"
-                :key="key"
-                class="mx-0"
-                :pressed="value === selected ? true : false"
-                @click="selected = value"
-              >
-                {{ value }}
-              </CButton>
-            </CButtonGroup>
-          </CCol>
-        </CRow>
-        <MainChartExample style="height: 300px; margin-top: 40px" />
-      </CCardBody>
-      <CCardFooter>
-        <CRow class="text-center">
-          <CCol md sm="12" class="mb-sm-2 mb-0">
-            <div class="text-muted">Visits</div>
-            <strong>29.703 Users (40%)</strong>
-            <CProgress
-              class="progress-xs mt-2"
-              :precision="1"
-              color="success"
-              :value="40"
-            />
-          </CCol>
-          <CCol md sm="12" class="mb-sm-2 mb-0 d-md-down-none">
-            <div class="text-muted">Unique</div>
-            <strong>24.093 Users (20%)</strong>
-            <CProgress
-              class="progress-xs mt-2"
-              :precision="1"
-              color="info"
-              :value="20"
-            />
-          </CCol>
-          <CCol md sm="12" class="mb-sm-2 mb-0">
-            <div class="text-muted">Pageviews</div>
-            <strong>78.706 Views (60%)</strong>
-            <CProgress
-              class="progress-xs mt-2"
-              :precision="1"
-              color="warning"
-              :value="60"
-            />
-          </CCol>
-          <CCol md sm="12" class="mb-sm-2 mb-0">
-            <div class="text-muted">New Users</div>
-            <strong>22.123 Users (80%)</strong>
-            <CProgress
-              class="progress-xs mt-2"
-              :precision="1"
-              color="danger"
-              :value="80"
-            />
-          </CCol>
-          <CCol md sm="12" class="mb-sm-2 mb-0 d-md-down-none">
-            <div class="text-muted">Bounce Rate</div>
-            <strong>Average Rate (40.15%)</strong>
-            <CProgress class="progress-xs mt-2" :precision="1" :value="40" />
-          </CCol>
-        </CRow>
-      </CCardFooter>
-    </CCard> -->
-
-    <!-- <WidgetsBrand /> -->
-    <CRow>
-      <CCol md="12">
-        <CCard>
-          <CCardHeader> Traffic &amp; Sales </CCardHeader>
-          <CCardBody>
-            <CRow>
-              <CCol sm="12" lg="6">
-                <CRow>
-                  <CCol sm="6">
-                    <CCallout color="info">
-                      <small class="text-muted">New Clients</small><br />
-                      <strong class="h4">9,123</strong>
-                    </CCallout>
-                  </CCol>
-                  <CCol sm="6">
-                    <CCallout color="danger">
-                      <small class="text-muted">Recurring Clients</small><br />
-                      <strong class="h4">22,643</strong>
-                    </CCallout>
-                  </CCol>
-                </CRow>
-                <hr class="mt-0" />
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Monday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" color="info" :value="34" />
-                    <CProgress class="progress-xs" color="danger" :value="78" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Tuesday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="56" color="info" />
-                    <CProgress class="progress-xs" :value="94" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Wednesday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="12" color="info" />
-                    <CProgress class="progress-xs" :value="67" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Thursday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="43" color="info" />
-                    <CProgress class="progress-xs" :value="91" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Friday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="22" color="info" />
-                    <CProgress class="progress-xs" :value="73" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Saturday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="53" color="info" />
-                    <CProgress class="progress-xs" :value="82" color="danger" />
-                  </div>
-                </div>
-                <div class="progress-group mb-4">
-                  <div class="progress-group-prepend">
-                    <span class="progress-group-text"> Sunday </span>
-                  </div>
-                  <div class="progress-group-bars">
-                    <CProgress class="progress-xs" :value="9" color="info" />
-                    <CProgress class="progress-xs" :value="69" color="danger" />
-                  </div>
-                </div>
-                <div class="legend text-center">
-                  <small>
-                    <sup><CBadge shape="pill" color="info">&nbsp;</CBadge></sup>
-                    New clients &nbsp;&nbsp;
-                    <sup
-                      ><CBadge shape="pill" color="danger">&nbsp;</CBadge></sup
-                    >
-                    Recurring clients
-                  </small>
-                </div>
-              </CCol>
-              <CCol sm="12" lg="6">
-                <CRow>
-                  <CCol sm="6">
-                    <CCallout color="warning">
-                      <small class="text-muted">Pageviews</small><br />
-                      <strong class="h4">78,623</strong>
-                    </CCallout>
-                  </CCol>
-                  <CCol sm="6">
-                    <CCallout color="success">
-                      <small class="text-muted">Organic</small><br />
-                      <strong class="h4">49,123</strong>
-                    </CCallout>
-                  </CCol>
-                </CRow>
-                <hr class="mt-0" />
-                <ul class="horizontal-bars type-2">
-                  <div class="progress-group">
-                    <div class="progress-group-header">
-                      <CIcon name="cil-user" class="progress-group-icon" />
-                      <span class="title">Male</span>
-                      <span class="ml-auto font-weight-bold">43%</span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="43"
-                        color="warning"
-                      />
-                    </div>
-                  </div>
-                  <div class="progress-group mb-5">
-                    <div class="progress-group-header">
-                      <CIcon
-                        name="cil-user-female"
-                        class="progress-group-icon"
-                      />
-                      <span class="title">Female</span>
-                      <span class="ml-auto font-weight-bold">37%</span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="37"
-                        color="warning"
-                      />
-                    </div>
-                  </div>
-                  <div class="progress-group">
-                    <div class="progress-group-header">
-                      <CIcon name="cil-globe-alt" class="progress-group-icon" />
-                      <span class="title">Organic Search</span>
-                      <span class="ml-auto font-weight-bold">
-                        191,235 <span class="text-muted small">(56%)</span>
-                      </span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="56"
-                        color="success"
-                      />
-                    </div>
-                  </div>
-                  <div class="progress-group">
-                    <div class="progress-group-header">
-                      <CIcon
-                        name="cib-facebook"
-                        height="17"
-                        class="progress-group-icon"
-                      />
-                      <span class="title">Facebook</span>
-                      <span class="ml-auto font-weight-bold">
-                        51,223 <span class="text-muted small">(15%)</span>
-                      </span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="15"
-                        color="success"
-                      />
-                    </div>
-                  </div>
-                  <div class="progress-group">
-                    <div class="progress-group-header">
-                      <CIcon
-                        name="cib-twitter"
-                        height="17"
-                        class="progress-group-icon"
-                      />
-                      <span class="title">Twitter</span>
-                      <span class="ml-auto font-weight-bold">
-                        37,564 <span class="text-muted small">(11%)</span>
-                      </span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="11"
-                        color="success"
-                      />
-                    </div>
-                  </div>
-                  <div class="progress-group">
-                    <div class="progress-group-header">
-                      <CIcon
-                        name="cib-linkedin"
-                        height="17"
-                        class="progress-group-icon"
-                      />
-                      <span class="title">LinkedIn</span>
-                      <span class="ml-auto font-weight-bold">
-                        27,319 <span class="text-muted small">&nbsp;(8%)</span>
-                      </span>
-                    </div>
-                    <div class="progress-group-bars">
-                      <CProgress
-                        class="progress-xs"
-                        :value="8"
-                        color="success"
-                      />
-                    </div>
-                  </div>
-                  <div class="divider text-center">
-                    <CButton color="link" size="sm" class="text-muted">
-                      <CIcon name="cil-options" />
-                    </CButton>
-                  </div>
-                </ul>
-              </CCol>
-            </CRow>
-            <br />
-            <CDataTable
-              class="mb-0 table-outline"
-              hover
-              :items="tableItems"
-              :fields="tableFields"
-              head-color="light"
-              no-sorting
-            >
-              <td slot="avatar" class="text-center" slot-scope="{ item }">
-                <div class="c-avatar">
-                  <img :src="item.avatar.url" class="c-avatar-img" alt="" />
-                  <span
-                    class="c-avatar-status"
-                    :class="`bg-${item.avatar.status || 'secondary'}`"
-                  ></span>
-                </div>
-              </td>
-              <td slot="user" slot-scope="{ item }">
-                <div>{{ item.user.name }}</div>
-                <div class="small text-muted">
-                  <span>
-                    <template v-if="item.user.new">New</template>
-                    <template v-else>Recurring</template>
-                  </span>
-                  | Registered: {{ item.user.registered }}
-                </div>
-              </td>
-              <td slot="country" slot-scope="{ item }" class="text-center">
-                <CIcon :name="item.country.flag" height="25" />
-              </td>
-              <td slot="usage" slot-scope="{ item }">
-                <div class="clearfix">
-                  <div class="float-left">
-                    <strong>{{ item.usage.value }}%</strong>
-                  </div>
-                  <div class="float-right">
-                    <small class="text-muted">{{ item.usage.period }}</small>
-                  </div>
-                </div>
-                <CProgress
-                  class="progress-xs"
-                  v-model="item.usage.value"
-                  :color="color(item.usage.value)"
-                />
-              </td>
-              <td slot="payment" slot-scope="{ item }" class="text-center">
-                <CIcon :name="item.payment.icon" height="25" />
-              </td>
-              <td slot="activity" slot-scope="{ item }">
-                <div class="small text-muted">Last login</div>
-                <strong>{{ item.activity }}</strong>
-              </td>
-            </CDataTable>
-          </CCardBody>
-        </CCard>
+    <CRow align-horizontal="center" class="pt-5">
+      <CCol sm="4" md="4">
+        <CCardLink href="http://broker.abybroker.it/ea2019/" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/assicurazioni.png');
+              background-position: center;
+              background-size: contain;
+            "
+            data-aos="fade-down-right"
+          >
+            <h1 style="color: #3c4b64">ASSICURAZIONI</h1>
+          </CCard>
+        </CCardLink>
       </CCol>
+
+      <CCol sm="4" md="4">
+        <CCardLink href="#" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/energy.png');
+              background-position: center;
+              background-size: contain;
+            "
+            data-aos="fade-down-left"
+          >
+            <h1 style="color: #3c4b64">ENERGY</h1>
+          </CCard>
+        </CCardLink>
+      </CCol>
+    </CRow>
+
+    <CRow align-horizontal="center" class="pt-5">
+      <CCol sm="3" md="3">
+        <CCardLink
+          href="http://broker.abybroker.it/ea2019/Stats_FlashReports.aspx"
+          target="_self"
+        >
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/statistiche.png');
+              background-position: center bottom;
+              background-size: auto;
+              background-position-y: 80px;
+            "
+            data-aos="flip-left"
+          >
+            <CCardTitle style="color: #3c4b64">
+              <h1>STATISTICHE</h1>
+            </CCardTitle>
+          </CCard>
+        </CCardLink>
+      </CCol>
+      <CCol sm="3" md="3">
+        <CCardLink href="#" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/marketing.png');
+              background-position: center bottom;
+              background-size: auto;
+              background-position-y: 80px;
+            "
+            data-aos="flip-up"
+          >
+            <CCardTitle style="color: #3c4b64">
+              <h1>MARKETING</h1>
+            </CCardTitle>
+          </CCard>
+        </CCardLink>
+      </CCol>
+      <CCol sm="3" md="3">
+        <CCardLink href="#" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/amministrazione.png');
+              background-position: center bottom;
+              background-size: auto;
+              background-position-y: 80px;
+            "
+            data-aos="flip-right"
+          >
+            <CCardTitle style="color: #3c4b64">
+              <h1>AMMINISTRAZIONE</h1>
+            </CCardTitle>
+          </CCard>
+        </CCardLink>
+      </CCol>
+    </CRow>
+    <CRow align-horizontal="center" class="pt-5">
+      <CCol sm="3" md="3">
+        <CCardLink href="#" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/formazione.png');
+              background-position: center bottom;
+              background-size: auto;
+              background-position-y: 80px;
+            "
+            data-aos="flip-left"
+          >
+            <CCardTitle style="color: #3c4b64">
+              <h1>FORMAZIONE</h1>
+            </CCardTitle>
+          </CCard>
+        </CCardLink>
+      </CCol>
+      <CCol sm="3" md="3">
+        <CCardLink href="#" target="_self">
+          <CCard
+            class="text-center elevation-6"
+            body-wrapper
+            style="
+              height: 200px;
+              background-image: url('img/buttons/documentale.png');
+              background-position: center bottom;
+              background-size: auto;
+              background-position-y: 80px;
+            "
+            data-aos="flip-up"
+          >
+            <CCardTitle style="color: #3c4b64">
+              <h1>DOCUMENTALE</h1>
+            </CCardTitle>
+          </CCard>
+        </CCardLink>
+      </CCol>
+      <CCol sm="3" md="3"> </CCol>
     </CRow>
   </div>
 </template>
 
 <script>
-// import MainChartExample from "./charts/MainChartExample";
-// import WidgetsDropdown from "./widgets/WidgetsDropdown";
-// import WidgetsBrand from "./widgets/WidgetsBrand";
+
 
 export default {
   name: "Dashboard",
   components: {
-    // MainChartExample,
-    // WidgetsDropdown,
-    // WidgetsBrand,
+
   },
   data() {
     return {
@@ -695,3 +460,14 @@ export default {
   },
 };
 </script>
+<style scoped>
+.elevation-6 {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.elevation-6:hover {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12) !important;
+  border-color: midnightblue;
+}
+</style>
