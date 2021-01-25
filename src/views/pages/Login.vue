@@ -7,10 +7,20 @@
         <CCol md="8">
           <CCardGroup>
             <CCard class="p-4">
-              <CCardBody>
-                <CForm>
-                   <img src="img/abyway_logo.png" width="200px">
-                  
+              <CCardBody class="justify-content-center">
+                
+                <CJumbotron
+              color="info"
+              text-color="white"
+              border-color="dark"
+            >
+              <h1 class="display-3">Benvenuti in <img class="login-img" src="img/abyway_logo.png" ></h1>
+              <p class="lead">
+               <em>La nuova piattaforma operativa</em>
+              </p>
+              <hr class="my-4">
+              <CForm >
+                                    
                   <p class="text-muted pt-3">Effettua il login</p>
                   <CInput
                     placeholder="Username"
@@ -31,11 +41,13 @@
                   </CInput>
                   <CRow>
                     <CCol col="6" class="text-left">
-                      <CButton color="primary" class="px-4">Login</CButton>
+                      <CButton color="primary" class="px-4" href="http://broker.abybroker.it/accesso/login.aspx?r=ea&amp;ReturnUrl=%2fEA%2fNewDefault.aspx">Login</CButton>
                     </CCol>
                     
                   </CRow>
                 </CForm>
+            </CJumbotron>
+               
               </CCardBody>
             </CCard>
             <!-- <CCard
@@ -68,3 +80,8 @@ export default {
   name: 'Login'
 }
 </script>
+<style scoped>
+.login-img{
+  vertical-align: baseline !important;
+}
+</style>

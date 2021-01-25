@@ -1,5 +1,6 @@
 <template>
-  <CHeader fixed with-subheader light>
+
+  <CHeader fixed with-subheader light class="d-flex justify-content-between">
     <!-- <CToggler
       in-header
       class="ml-3 d-lg-none"
@@ -15,38 +16,28 @@
       <CHeaderNavItem class="px-3">
        <img src="img/abyway_logo.png" width="200px">
       </CHeaderNavItem>
-      <CHeaderNavItem class="px-3">
-        <CHeaderNavLink to="/dashboard"> Home </CHeaderNavLink>
-      </CHeaderNavItem>
-      <CHeaderNavItem class="px-3">
-        <CHeaderNavLink to="/news" exact> News </CHeaderNavLink>
-      </CHeaderNavItem>
-      <CHeaderNavItem class="px-3">
-        <CHeaderNavLink> Settings </CHeaderNavLink>
-      </CHeaderNavItem>
+      
     </CHeaderNav>
+    
     <CHeaderNav class="mr-4">
       <CHeaderNavItem class="d-md-down-none mx-2">
         <CHeaderNavLink>
           <CIcon name="cil-bell" />
         </CHeaderNavLink>
       </CHeaderNavItem>
-      <CHeaderNavItem class="d-md-down-none mx-2">
-        <CHeaderNavLink>
-          <CIcon name="cil-list" />
-        </CHeaderNavLink>
-      </CHeaderNavItem>
-      <CHeaderNavItem class="d-md-down-none mx-2">
+       <CHeaderNavItem class="d-md-down-none mx-2">
         <CHeaderNavLink>
           <CIcon name="cil-envelope-open" />
         </CHeaderNavLink>
       </CHeaderNavItem>
       <TheHeaderDropdownAccnt />
     </CHeaderNav>
-    <CSubheader class="px-3">
-      <CBreadcrumbRouter class="border-0 mb-0" />
-    </CSubheader>
+
   </CHeader>
+
+
+
+
 </template>
 
 <script>
@@ -59,3 +50,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+
+
+
+</style>

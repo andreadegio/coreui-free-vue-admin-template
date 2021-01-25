@@ -11,4 +11,7 @@ export default {
 <style lang="scss">
   // Import Main styles for this application
   @import 'assets/scss/style';
+  .c-main{
+  padding-top: 0 !important;
+}
 </style>
